@@ -1,0 +1,63 @@
+.row{   
+    color:black;
+    font-size:20px;
+}
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.aboutme{
+    border:1px solid black;   
+}
+.Box{
+    border: outset;
+    background-color:black;
+}
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	5%{color: red;}
+	35%{color: yellow;}
+	65%{color: green;}
+	85%{color: blue;}
+	0%{color: orange;}	
+}
+.rowfooter{
+    display:flex;
+    justify-content:space-between;
+}
